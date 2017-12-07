@@ -1,6 +1,6 @@
 % Käsekuchen mit Früchten
 
-*Niemand mag den Boden*
+*Niemand mag Boden*
  
 
 ## Zutaten
@@ -14,7 +14,7 @@
  * 1 El Stärke oder Gries
  * 1 Päckchen Käsekuchen Hilfe oder Vanille Pudding
  * 4 Eier
- * 1 Vanille Schote
+ * 1 Vanille-Schote
  * 1 Päckchen Vanilin Zucker
 
 [![](0x01/prep.jpg "Vorbereitung")](0x01/prep.jpg)
@@ -33,10 +33,12 @@ Die Eier trennen und das Eiweiß mit dem Zucker und einer Prise Salz steif schla
 Die Vanilleschote auskratzen und in eine zweite Schüssel geben.
 Nun auch Quark, Eier, Milch und Käsekuchen Hilfe bzw. Pudding Pulver beigeben.
 
-Den Eischnee vorsichtig unterheben.
 [![](0x01/cream.jpg "Vorbereitung")](0x01/cream.jpg)
 
+Den Eischnee vorsichtig unterheben.
+
 Eine Form buttern und mit Zucker ausstreuen.
+
 [![](0x01/form.jpg "Form")](0x01/form.jpg)
 
 ## Backen
