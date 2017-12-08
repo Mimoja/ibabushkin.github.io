@@ -52,6 +52,6 @@ Auf die Bodenschicht nun die Fruchmasse geben und darauf die restliche Käsekuch
 
 Bei 150°C für 60 Minuten backen. Nach etwa 20 Minuten den Kuchen mit einem Messer am Rand von der Form lösen.
 
-So reißt die Oberfläche beim backen nicht. Nun den Ofen umgekehrt wieder in den Ofen schieben und zuende backen.
+So reißt die Oberfläche beim backen nicht. Nun den Kuchen umgekehrt wieder in den Ofen schieben und zuende backen.
 
 [![](0x01/cake.jpg "Fertiger Kuchen")](0x01/cake.jpg)
