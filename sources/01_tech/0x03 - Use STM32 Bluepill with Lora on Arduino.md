@@ -3,11 +3,11 @@
 ---
 
 **TLDR:**
+
  * Install Arduino IDE
- * Use `https://raw.githubusercontent.com/stm32duino/BoardManagerFiles/d1c46284dec37305d563a87eecfb545e3c66a166/STM32/package_stm_index.json` for the Boardmanager preferences
+ * Use "https://raw.githubusercontent.com/stm32duino/BoardManagerFiles/d1c46284dec37305d563a87eecfb545e3c66a166/STM32/package_stm_index.json" for the Boardmanager preferences
  * Add Bluepill from Boardmanager
-
-
+ * Disable `Aggressively cache compiled core` from in the Preferences
 ---
 
 **I assume you are using a BluePill Board with an STLink programmer. You can burn the STM32duino bootloader, which will enable you to program over USB. This is not in the scope of this HowTo (for now).**
@@ -16,7 +16,8 @@
 
 Go to the [Arduino Download Page](https://www.arduino.cc/en/Main/Software) and Download the Package that coresponds to your Operating System.
 
-* On Linux you can untar the archive with `tar xfv Downloads/arduino-*-linux64.tar.xz`
+* On Linux you can untar the archive with
+  `tar xfv Downloads/arduino-*-linux64.tar.xz`
 * On Windows you can run the installer or use the explorer to unzip the downloaded archive.
 
 Now start the Arduino IDE by running the `arduino` binary.
@@ -24,6 +25,7 @@ Now start the Arduino IDE by running the `arduino` binary.
 ## Add STM32 Boardsupport
 
 Go to File -> Preferences and copy the following URL to the `Additional Board Manager URLs` field:
+
 `https://raw.githubusercontent.com/stm32duino/BoardManagerFiles/d1c46284dec37305d563a87eecfb545e3c66a166/STM32/package_stm_index.json`
 
 [![](0x03/preferences_scaled.jpg "preferences")](0x03/preferences.png)
@@ -53,6 +55,7 @@ Click Upload. You should end up with an blinking LED.
      * Verify the electric connections between STLink and BluePill
      * Replug STLink
      * Try flashing with the BOOT0 jumper set to 1
-
+ * arm-none-eabi-gcc: error: C:\Users\Peter\AppData\Local\Temp\arduino_build_514602/core/syscalls_stm32.c.o: No such file or directory
+     * Open Preferences and uncheck in the Setting tab the `Aggressively cache compiled core` option.
 ## Talking to Lora module
 For now there is currently no compatible `Lora MAC in C` short `lmic` port. I will update this document once it get it to work.
